@@ -1,0 +1,40 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+/* * {
+  background-color: blanchedalmond;
+} */
+
+.logo {
+
+  color: brown;
+  font-family: cursive;
+  border-style: solid;
+  text-align: center;
+  width: min-content;
+  height: 70px;
+  margin-bottom: 5px;
+  
+}
+ul {
+  display: flexbox;
+  list-style: none;
+  padding: 0;
+  font-weight: bold;
+}
+
+ul {
+  border: 2px solid rebeccapurple;
+  padding: 0.5em;
+}
+li {
+  border: 2px solid blue;
+  padding: 7em;
+}
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
